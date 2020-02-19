@@ -113,7 +113,7 @@ def movies_with_directors_set(source)
       my_array << movies_hash
       director_index += 1
     end
-  p array
+  p my_array
 end
 
 # ----------------    End of Your Code Region --------------------
