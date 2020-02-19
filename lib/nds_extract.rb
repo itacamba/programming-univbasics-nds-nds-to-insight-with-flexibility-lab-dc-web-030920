@@ -108,7 +108,7 @@ def movies_with_directors_set(source)
     movies_array = source[i][:movies]
     director_name = source[i][:name]
     j = 0
-    while j < source[i].length do
+    while j < source[i][:movies].length do
       movie_hash = source[i][:movies][j]
       if !movie_hash[:director_name]
           movie_hash[:director_name] = director_name
