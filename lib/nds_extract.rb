@@ -110,7 +110,7 @@ def movies_with_directors_set(source)
     my_array << movies_array
     i += 1
   end
-p
+p my_array
 end
 
 # ----------------    End of Your Code Region --------------------
