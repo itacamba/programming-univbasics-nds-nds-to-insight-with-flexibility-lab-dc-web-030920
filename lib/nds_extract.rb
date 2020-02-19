@@ -117,7 +117,7 @@ def movies_with_directors_set(source)
     end
     i += 1
   end
-p source
+p my_hash
 end
 
 # ----------------    End of Your Code Region --------------------
