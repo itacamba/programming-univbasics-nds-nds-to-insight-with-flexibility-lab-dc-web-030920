@@ -119,7 +119,7 @@ def movies_with_directors_set(source)
       end
       director_counter += 1
     end
-  p movie_array
+  p my_array
 end
 
 # ----------------    End of Your Code Region --------------------
