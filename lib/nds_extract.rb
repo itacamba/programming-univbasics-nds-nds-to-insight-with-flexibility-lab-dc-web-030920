@@ -109,9 +109,6 @@ def movies_with_directors_set(source)
     movies_array = source[i][:movies]
     director_name = source[i][:name]
     my_array << movies_array
-    if !my_array[:director_name]
-        my_array[:director_name] = director_name
-    end
     i += 1
   end
 p my_array
