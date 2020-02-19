@@ -110,7 +110,7 @@ def movies_with_directors_set(source)
       movie_counter = 0
       while movie_counter < source[director_counter].length do
         each_movie = source[director_counter][:movies]
-        movie_hash << each_movie
+        movie_hash.push(each_movie)
         if !movie_hash[:director_name]
           movie_hash << director_name
         end
