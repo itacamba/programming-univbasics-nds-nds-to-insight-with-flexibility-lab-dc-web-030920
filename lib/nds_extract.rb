@@ -119,6 +119,7 @@ def movies_with_directors_set(source)
       j += 1
     end
     i += 1
+    my_array << my_hash
   end
 p my_hash
 end
