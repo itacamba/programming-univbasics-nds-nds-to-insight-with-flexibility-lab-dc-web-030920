@@ -113,6 +113,9 @@ def movies_with_directors_set(source)
       if !my_hash[:title]
           my_hash[:title] = each_movie_title
       end
+      if !my_hash[:director_name]
+          my_hash[:director_name] = director_name
+      end
       j += 1
     end
     i += 1
