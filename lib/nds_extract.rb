@@ -118,7 +118,7 @@ def movies_with_directors_set(source)
     end
       my_array << movies_array
     i += 1
-    
+
   end
 p my_array
 end
