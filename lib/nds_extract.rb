@@ -117,9 +117,9 @@ def movies_with_directors_set(source)
           my_hash[:director_name] = director_name
       end
       j += 1
+      my_array << my_hash
     end
     i += 1
-    my_array << my_hash
   end
 p my_array
 end
