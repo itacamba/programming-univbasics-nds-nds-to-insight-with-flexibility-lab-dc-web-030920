@@ -81,7 +81,7 @@ def gross_per_studio(collection)
   while movie_counter < collection.length do
     studio_as_a_key = collection[movie_counter][:studio]
     gross_as_a_value = collection[movie_counter][:worldwide_gross]
-    if !my_hash[studio_is_a_key]
+    if !my_hash[studio_as_a_key]
         my_hash[studio_as_a_key] = gross_as_a_value
     else
       my_hash[studio_as_a_key] += gross_as_a_value
