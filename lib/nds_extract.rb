@@ -121,7 +121,7 @@ def movies_with_directors_set(source)
     i += 1
     my_array << my_hash
   end
-p my_hash
+p my_array
 end
 
 # ----------------    End of Your Code Region --------------------
